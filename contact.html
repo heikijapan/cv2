@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact form</h1>
+    <table cellspacing="10">
+        <tr>
+            <td><form action="mailto:heiki@iiwakenashi.com" method="post" enctype="text/plain">
+                <label for="fname"><strong>First name: </strong></label></td>
+            <td><input type="text" id="fname" name="fname" placeholder="太郎"></td>
+            <tr>
+                <td><label for="lname"><strong>Last name: </strong></label></td>
+                <td><input type="text" name="lname" id="lname" placeholder="山田"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><strong>E-mail: </strong></label></td>
+                <td><input type="email" id="email" name="email" placeholder="taro@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="phone1"><strong>Phone: </strong></label></td>
+                <td><input type="text" name="phone1" id="phone1" placeholder="080" maxlength="3" size="4"> - 
+                    <input type="text" name="phone2" id="phone2" placeholder="1234" maxlength="4" size="4"> - 
+                    <input type="text" name="phone3" id="phone3" placeholder="5678" maxlength="4" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><br>
+                    <label for="message"><strong>Your message: </strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="What is your question?"></textarea>
+                </td>
+            </tr>
+       <!-- <tr>
+                <td colspan="2"><hr></td>
+            </tr>-->
+            <tr>
+                <td><input type="submit" value="Send"></td>
+        <!--    <tr>
+                <td colspan="2"><hr></td>
+            </tr> -->
+            </form>
+            </tr>
+        </tr>
+</table>
+</body>
+</html>
